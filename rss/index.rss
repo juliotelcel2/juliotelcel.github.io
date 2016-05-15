@@ -1,4 +1,37 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Ing. Julio labrador</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 15 May 2016 18:11:58 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Sr cabasho</title><description>&lt;p&gt;El día de ayer encontré un usuario en facebook con mas de 100000 likes llamado sr Cabasho que se dedica a realizar post de corte humoristico....es proveniente de cabasholandia.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Ing. Julio labrador</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 15 May 2016 19:23:15 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Creacion de un blog con github page</title><description>&lt;p&gt;Github pages es una plataforma de Sitios web donde se alojan los proyectos directamente desde el repositorio de GitHub ; Sólo hay que editar , subir y los cambios son en vivo .Ghost es una plataforma de publicación de código abierto que está muy bien diseñado , fácil de usar y libre para&lt;/p&gt;</description><link>http://localhost:2368/creacion-de-un-blog-con-github-page/</link><guid isPermaLink="false">3c4aefe8-3a42-430a-8a47-bc73ffc8638c</guid><dc:creator>Julio Cesar Labrador</dc:creator><pubDate>Sun, 15 May 2016 19:17:53 GMT</pubDate><content:encoded>&lt;p&gt;Github pages es una plataforma de Sitios web donde se alojan los proyectos directamente desde el repositorio de GitHub ; Sólo hay que editar , subir y los cambios son en vivo .Ghost es una plataforma de publicación de código abierto que está muy bien diseñado , fácil de usar y libre para todo el mundo . pero hay que realizar una serie de pasos para poder ver la publicacion de un sitio.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ghost-Logo.svg/2000px-Ghost-Logo.svg.png"&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ghost-Logo.svg/2000px-Ghost-Logo.svg.png&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;/home/julio/Imágenes/ghostimagen.png&lt;/p&gt;
+
+&lt;p&gt;Cuando entramos a github y creamos el repositorio, debe de ser con el nombre de nuestro usuario en github para no tener conflictos con la dirección web&lt;/p&gt;
+
+&lt;p&gt;Para utilizar git hub pages debemos tener instaladas 4 herramientas&lt;/p&gt;
+
+&lt;p&gt;python &lt;br&gt;
+node &lt;br&gt;
+pip(se debe actualizar a la version reciente) &lt;br&gt;
+buster&lt;/p&gt;
+
+&lt;p&gt;debo descargar ghots a mi escritorio.descomprimir el zip y crear la carpeta ghost.&lt;/p&gt;
+
+&lt;p&gt;para instalar en modo root el comando es sudo -i luego cd /y navegar al directorio donde tengo ghost,un vez este en la carpeta ghost por teminal le doy a npm install --produccion&lt;/p&gt;
+
+&lt;p&gt;luego se escribe el comando npm start para crear la ip, ella se escucha en el area local para entrar en la configuracion del blog entra a la direccion 127.0.0.1:2368/ghost&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://primbs.de/wp-content/uploads/2014/09/2014-09-01_10-35-06.png"&gt;http://primbs.de/wp-content/uploads/2014/09/2014-09-01_10-35-06.png&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;En otra ventana del terminal navegamos hacia la carpeta ghost y luego escribimos el comando buster generate para que me genere los archivos stactic que se suben al github pages&lt;/p&gt;
+
+&lt;p&gt;luego hay que navergar a la carpeta static para subirla a github page para que genere los cambios...antes de subir debemos hacer git init,git add,git commit -m,luego debemos conectarnos por ssh.&lt;/p&gt;
+
+&lt;p&gt;para conectarme por ssh escribimos el comando git remote add origin "direccion_ssh"&lt;/p&gt;
+
+&lt;p&gt;y luego git push origin master....&lt;/p&gt;
+
+&lt;p&gt;Revisamos los cambios en github y nos metemos en edit para editar la direccion &lt;a href="http://usuario.github.io"&gt;http://usuario.github.io&lt;/a&gt; y salvamos.&lt;/p&gt;
+
+&lt;p&gt;luego entramos con la direccion local 127.0.0.1:2368/ghost para el setup configuracion de la cuenta y el blog.&lt;/p&gt;</content:encoded></item><item><title>Sr cabasho</title><description>&lt;p&gt;El día de ayer encontré un usuario en facebook con mas de 100000 likes llamado sr Cabasho que se dedica a realizar post de corte humoristico....es proveniente de cabasholandia.&lt;/p&gt;
 
 &lt;p&gt;LINKS: &lt;br&gt;
 podemos ir al sitio de sr cabasho en el siguiente enlace &lt;a href="https://www.facebook.com/Sr-Cabasho-720293157983014/timeline"&gt;https://www.facebook.com/Sr-Cabasho-720293157983014/timeline&lt;/a&gt;&lt;/p&gt;
